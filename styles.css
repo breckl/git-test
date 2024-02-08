@@ -4,5 +4,43 @@ html {
 }
 
 h1 {
-  color: blue;
+  color: lime;
+}
+
+h2 {
+  color: yellow;
+}
+
+body {
+  background-color: magenta;
+  margin: 25px;
+  color: white;
+}
+
+.buttons {
+  display: flex;
+}
+
+button {
+  background-color: darkmagenta;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: lime;
+  color: darkmagenta;
+}
+
+a {
+  color: lime
 }
